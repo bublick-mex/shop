@@ -1,0 +1,97 @@
+.color{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(238, 238, 238);
+  width: 130px;
+  padding: 5px;
+}
+
+.cost{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(238, 238, 238);
+  width: 130px;
+  padding: 5px;
+  gap: 5px;
+}
+
+.str{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  justify-content: center;
+}
+
+.app {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.col{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.content {
+  display: flex;
+  margin-top: 20px; 
+}
+
+.filters {
+  width: 250px; 
+  margin-right: 20px; 
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px; 
+  margin-left: 15px;
+}
+
+.product-item {
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  margin: 0;
+  flex-basis: 25%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 5px;
+  justify-content: center;
+  width: 100%;
+}
+
+.product-item img{
+  width: 130px;
+  height: 130px;
+}
+
+.product-item h2{
+  margin: 0;
+}
+
+.product-item p{
+  margin: 3px;
+}
+
+.sort-options{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px; 
+}
+
+.sort-options button{
+  background-color: white;
+  border-width: 1.5px;
+}
+
+.sort-options button:hover{
+  background-color: rgb(241, 241, 241);
+}
+
+.sort-options button.active {
+  background-color: rgb(226, 226, 226);
+}
+
